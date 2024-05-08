@@ -1,5 +1,10 @@
+def get_stuff():
+    name = input("What's your name?")
+    return name
+
+
 def print_stuff():
-    stuff = "This is some info"
+    stuff = "Hi ", get_stuff()
     print(stuff)
 
 def main():
