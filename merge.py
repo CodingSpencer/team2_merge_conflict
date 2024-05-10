@@ -1,6 +1,18 @@
+def get_stuff():
+    name = input("What's your name?")
+    return name
+
+
 def print_stuff():
-    stuff = "This is some info"
+    stuff = "Hi ", get_stuff()
     print(stuff)
+
+def german_hello_world():
+    message = "Hallo Welt!"
+    print(message)
+
+def nathans_function():
+    print("Nathan's function")
 
 def duck_logic():
     quack = input('Whats the difference between a duck?')
@@ -8,6 +20,8 @@ def duck_logic():
 
 def main():
     print_stuff()
+    nathans_function()
+    german_hello_world()
     duck_logic()
 
 if __name__ == "__main__":
