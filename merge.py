@@ -13,11 +13,16 @@ def german_hello_world():
 
 def nathans_function():
     print("Nathan's function")
+    
+def countToOne():
+    for i in range(1):
+        print(i+1)
 
 def main():
     print_stuff()
     nathans_function()
     german_hello_world()
+    countToOne()
 
 if __name__ == "__main__":
     main()
