@@ -7,6 +7,10 @@ def print_stuff():
     stuff = "Hi ", get_stuff()
     print(stuff)
 
+def german_hello_world():
+    message = "Hallo Welt!"
+    print(message)
+
 def main():
     print_stuff()
 
